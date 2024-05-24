@@ -12,7 +12,7 @@ La combinación de LoRa y RP2040 ofrece una plataforma poderosa y flexible para 
 
 ### Objetivo 
 
-- Desarrollar un dispositivo IoT basado en el microcontrolador RP2040 y el protocolo LoRa: Aprovechando las capacidades del RP2040 y la tecnología LoRa para crear un nodo IoT capaz de recolectar y transmitir datos de manera eficiente, bajo consumo y largas distancias.
+- Desarrollar un dispositivo IoT basado en el microcontrolador RP2040 y el protocolo LoRa. Aprovechando las capacidades del RP2040 y la tecnología LoRa para crear un nodo IoT capaz de recolectar y transmitir datos de manera eficiente, bajo consumo y largas distancias.
 -  Implementar una comunicación nodo a nodo: Configurar dos nodos LoRa que permita transmitir datos de sensores de un nodo a otro.
 -  Desarrollar un firmware para el microcontrolador rp2040 mediante el uso de RTOS.
 -  Aplicación práctica: Implementar una aplicacion que permita visualizar los datos generados por el nodo transmisor de datos.
