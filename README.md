@@ -24,7 +24,7 @@ El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una 
 - Display Oled SSD1306 i2c
   
 ## Diagrama general:
-![DiagramaGeneral](https://github.com/sequeirandres/embeddedAndRTTP/tree/main/RP2040-tp/imag/rp2040-tp.png)
+[DiagramaGeneral](https://github.com/sequeirandres/embeddedAndRTTP/tree/main/RP2040-tp/imag/rp2040-tp.png)
 
 ## Actualizaciones:
 
