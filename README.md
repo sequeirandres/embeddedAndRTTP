@@ -8,6 +8,8 @@ En la era de la Internet de las Cosas (IoT), la necesidad de soluciones de comun
 
 El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una combinación de alta potencia de procesamiento y flexibilidad, siendo adecuado para una amplia gama de aplicaciones. Al combinar el RP2040 con la tecnología LoRa, podemos desarrollar dispositivos IoT capaces de comunicarse de manera eficiente en entornos donde la cobertura de red tradicional es limitada o inexistente.
 
+La combinación de LoRa y RP2040 ofrece una plataforma poderosa y flexible para el desarrollo de soluciones IoT. La capacidad de LoRa para cubrir grandes distancias y su bajo consumo energético la hacen ideal para aplicaciones donde otros métodos de comunicación inalámbrica no son viables. El RP2040, con su alto rendimiento y versatilidad, proporciona la base perfecta para desarrollar y gestionar las funcionalidades del nodo IoT, permitiendo la creación de soluciones innovadoras y sostenibles.
+
 ### Objetivo 
 
 - Desarrollar un dispositivo IoT basado en el microcontrolador RP2040 y el protocolo LoRa: Aprovechando las capacidades del RP2040 y la tecnología LoRa para crear un nodo IoT capaz de recolectar y transmitir datos de manera eficiente, bajo consumo y largas distancias.
@@ -37,4 +39,8 @@ El proyecto abarcará desde la selección y configuración del hardware necesari
 - Conectar el sensor BPM280
 - Conectar, escribir y borrar texto/imag en el display Oled SSD1306
 - Enviar los datos del sensor via BMP280 via UART a USB 
+
+
+https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4984-9d0c-b6c83c61aa74
+
 
