@@ -10,11 +10,14 @@ El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una 
 
 ### Objetivo 
 
-- Desarrollar un dispositivo IoT basado en el microcontrolador RP2040 y el protocolo LoRa: Aprovechando las capacidades del RP2040 y la tecnología LoRa para crear un nodo IoT capaz de recolectar y transmitir datos de manera eficiente.
--  Implementar una red LoRaWAN: Configurar una red LoRaWAN para gestionar la comunicación entre múltiples nodos IoT y una gateway central, asegurando la cobertura y la robustez de la red.
--  Aplicación práctica: Implementar una aplicación práctica, como el monitoreo ambiental, la gestión de recursos agrícolas o la detección de variables urbanas, demostrando la versatilidad y la eficacia de la solución desarrollada.
+- Desarrollar un dispositivo IoT basado en el microcontrolador RP2040 y el protocolo LoRa: Aprovechando las capacidades del RP2040 y la tecnología LoRa para crear un nodo IoT capaz de recolectar y transmitir datos de manera eficiente, bajo consumo y largas distancias.
+-  Implementar una comunicación nodo a nodo: Configurar dos nodos LoRa que permita transmitir datos de sensores de un nodo a otro.
+-  Desarrollar un firmware para el microcontrolador rp2040 mediante el uso de RTOS.
+-  Aplicación práctica: Implementar una aplicacion que permita visualizar los datos generados por el nodo transmisor de datos.
 
 ### Alcance 
+
+El proyecto abarcará desde la selección y configuración del hardware necesario (RP2040, módulos LoRa, sensores a elección) hasta el desarrollo del software con FreeRTOS y la implementación de una comunicación LoRa entre dos dispositivos. Se considerarán a futuro aspectos críticos como la gestión energética, la confiabilidad de la transmisión de datos y la integración con plataformas de análisis y visualización de datos.
 
 ### Recursos 
 
@@ -27,7 +30,7 @@ El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una 
 
 ![Diagrama](RP2040-tp/imag/rp2040-tp.png)
 
-- los bloques en gris aún no han sido implementados
+- los bloques en gris aún no han sido implementado.
 
 ## Hitos y Avances
 
