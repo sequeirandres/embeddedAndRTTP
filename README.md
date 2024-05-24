@@ -25,8 +25,9 @@ El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una 
   
 ## Diagrama general
 
-RP2040-tp/imag/rp2040-tp.png
-[DiagramaGeneral](RP2040-tp/imag/rp2040-tp.png)
+![Diagrama](RP2040-tp/imag/rp2040-tp.png)
+
+- los bloques en gris aún no han sido implementados
 
 ## Hitos y Avances
 
