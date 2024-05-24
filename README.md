@@ -23,10 +23,14 @@ El RP2040 es un microcontrolador de doble núcleo ARM Cortex-M0+ que ofrece una 
 - Transceptor LoRa (433MHz) Sx1278
 - Display Oled SSD1306 i2c
   
-## Diagrama general:
-[DiagramaGeneral](https://github.com/sequeirandres/embeddedAndRTTP/tree/main/RP2040-tp/imag/rp2040-tp.png)
+## Diagrama general
 
-## Actualizaciones:
+RP2040-tp/imag/rp2040-tp.png
+[DiagramaGeneral](RP2040-tp/imag/rp2040-tp.png)
 
+## Hitos y Avances
 
+- Conectar el sensor BPM280
+- Conectar, escribir y borrar texto/imag en el display Oled SSD1306
+- Enviar los datos del sensor via BMP280 via UART a USB 
 
