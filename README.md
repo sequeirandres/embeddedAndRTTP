@@ -20,6 +20,7 @@ La combinación de LoRa y RP2040 ofrece una plataforma poderosa y flexible para 
 ### Alcance 
 
 El proyecto abarcará desde la selección y configuración del hardware necesario (RP2040, módulos LoRa, sensores a elección) hasta el desarrollo del software con FreeRTOS y la implementación de una comunicación LoRa entre dos dispositivos. Se considerarán a futuro aspectos críticos como la gestión energética, la confiabilidad de la transmisión de datos y la integración con plataformas de análisis y visualización de datos.
+Se presentará una versión inicial de un producto (MVP) que incluye las características esenciales necesarias para que funcione y sea presentado a los primeros usuarios.
 
 ### Recursos 
 
