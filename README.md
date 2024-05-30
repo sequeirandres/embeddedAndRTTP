@@ -53,7 +53,7 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4
 ## Nodo gateway (Receptor LoRa)
 
 | LoRa Sx1278           | Parametro |
-|-----------|-----------|-----------|
+|-----------------------|-----------|
 | Frecuencia central    | 433 MHz   | 
 | Ancho de banda        | 250 KHz   | 
 | Spread Factor         | 11        | 
