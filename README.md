@@ -52,16 +52,14 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4
 
 ## Nodo gateway (Receptor LoRa)
 
-
-
 ![Diagrama](RP2040-tp/imag/gateway-iot2.png)
 
-- src 
+-[src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/LoRaGateway.cpp)
 ## Nodo endpoint (Transmisor LoRa)
 
 ![Diagrama](RP2040-tp/imag/node-iot2.png)
 
-- src
+- [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/LoRaNode.cpp)
 ##  Videos test
 
 https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/3961c59b-c963-4d9e-8f32-2455c8c50b1d
