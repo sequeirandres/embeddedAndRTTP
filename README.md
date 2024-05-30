@@ -45,3 +45,19 @@ Se presentará una versión inicial de un producto (MVP) que incluye las caracte
 https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4984-9d0c-b6c83c61aa74
 
 
+## Nodo gateway (Receptor LoRa)
+
+- src 
+## Nodo endpoint (Transmisor LoRa)
+
+
+- src
+## Funcionamiento Actual
+
+- video
+
+
+
+
+
+
