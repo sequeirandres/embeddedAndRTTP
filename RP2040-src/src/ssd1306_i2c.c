@@ -3,8 +3,34 @@
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include "ssd1306_i2c.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+
+void uint_to_char(char *value_string,uint32_t value)
+{
+	int mil, centena, decena, unidad;
+	
+	mil = (int)value/1000 ;
+	centena = (int)(value-mil*1000)/100 ;
+	decena = (int)(value-mil*1000-centena*100)/10 ;
+	unidad = (int)(value-mil*1000-centena*100-decena*10) ;
+
+    value_string[0] = '0' ;
+    value_string[1] = '0' ;
+	value_string[2] = mil + '0' ;
+	value_string[3] = centena + '0' ;
+	value_string[4] = decena + '0' ;
+	value_string[5] = unidad + '0' ;
+    value_string[6] = '\0' ;	
+}
 
 
 void calc_render_area_buflen(SSD1306_t *display) {
@@ -290,7 +316,7 @@ void SSD1306_clear(void)
     
 }
 
-void SSD1306_Write(uint8_t col0,uint8_t fil0, char *str,int strlen)
+void SSD1306_Write(uint8_t col0,uint8_t fil0, char *str,uint8_t strlen)
 {
 
 	uint8_t buf[(int)strlen*8];
@@ -309,6 +335,9 @@ void SSD1306_Write(uint8_t col0,uint8_t fil0, char *str,int strlen)
     render(buf, &display);
 }
 
+#ifdef __cplusplus
+}
+#endif
 
 
 

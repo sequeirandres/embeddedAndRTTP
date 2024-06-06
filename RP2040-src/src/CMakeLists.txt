@@ -11,12 +11,16 @@ add_library(LoRa_pico_lib
  			bmp280_i2c.h
  			Print.h
  			Print.cpp
- 			ssd1306_i2c.h
+ 			#dht.c
+ 			#dht.h
  			ssd1306_i2c.c
+ 			ssd1306_i2c.h
  			)
  			
 add_library(LoRa_print Print.h Print.cpp)
+#add_library(LoRa_pico_lib ssd1306_i2c.c ssd1306_i2c.h)
 
+#pico_generate_pio_header(dht ${CMAKE_CURRENT_LIST_DIR}/dht.pio)
 
 target_link_libraries(LoRa_pico_lib 
 	pico_stdlib
@@ -25,6 +29,9 @@ target_link_libraries(LoRa_pico_lib
 	hardware_interp			## for interuptions
 	LoRa_print				## for loRa
 	FreeRTOS-Kernel-Heap4   ## for freeRTOS 
+	hardware_clocks
+    hardware_dma
+    hardware_pio
 	)
 
  # enable usb output, disable uart output

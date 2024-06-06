@@ -2,6 +2,10 @@
 #define _HEADER_SSD1306_I2C_
 
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -34,7 +38,7 @@
    
    GPIO PICO_DEFAULT_I2C_SDA_PIN (on Pico this is GP4 (pin 4)) -> SDA on display
    board
-   GPIO PICO_DEFAULT_I2C_SCL_PIN (on Pico this is GP5 (pin 5)) -> SCL on display
+   GPIO PICO_DEFAULT_I2C_SCL_PIN (on Pico this is GP5 (pin 5)) -> SCL on
    
    display board
    3.3v (pin 36) -> VCC on display board
@@ -97,15 +101,15 @@
 #define SSD1306_SET_VCOM_DESEL      _u(0xDB)
 
 #define SSD1306_PAGE_HEIGHT         _u(8)										// Altura de cada fila
-#define SSD1306_NUM_PAGES           (SSD1306_HEIGHT / SSD1306_PAGE_HEIGHT)      // La cantidad de filas que hay 64/8 = 8 filas
-#define SSD1306_BUF_LEN             (SSD1306_NUM_PAGES * SSD1306_WIDTH)		 	// Cantidad total de caracteres 8*128	
+#define SSD1306_NUM_PAGES           (SSD1306_HEIGHT / SSD1306_PAGE_HEIGHT)     // La cantidad de filas que hay 64/8 = 8 filas
+#define SSD1306_BUF_LEN             (SSD1306_NUM_PAGES * SSD1306_WIDTH)		 // Cantidad total de caracteres 8*128	
 
 #define SSD1306_WRITE_MODE         _u(0xFE)
 #define SSD1306_READ_MODE          _u(0xFF)
 
 
-// Define struct area for render
-typedef struct 
+// Define struct area 
+typedef struct //render_area
 {
     uint8_t start_col;
     uint8_t end_col;
@@ -114,6 +118,10 @@ typedef struct
     int buflen;
 }SSD1306_t;
 
+//void calc_render_area_buflen(struct render_area *area) ;
+//void calc_render_area_buflen(SSD1306_t *area) ;
+
+void uint_to_char(char *value_string,uint32_t value);
 
 void calc_render_area_buflen(SSD1306_t *area) ;
 
@@ -126,6 +134,10 @@ void SSD1306_send_buf(uint8_t buf[], int buflen);
 void SSD1306_init();
 
 void SSD1306_scroll(bool on) ;
+
+//void WriteString(uint8_t *buf, int16_t x, int16_t y, char *str) ;
+
+//void render(uint8_t *buf, struct render_area *area);
 
 void render(uint8_t *buf,SSD1306_t *area);
 
@@ -147,7 +159,13 @@ void SSD1306_gpio_set(uint8_t sda_pin, uint8_t scl_pin) ;
 
 void SSD1306_clear() ;
 
-void SSD1306_Write(uint8_t col,uint8_t fil, char *string, int strlen);
+void SSD1306_Write(uint8_t col,uint8_t fil,char *str, uint8_t strlen);
+
+
+
+#ifdef __cplusplus
+}
+#endif
 
 
 #endif
