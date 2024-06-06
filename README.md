@@ -81,8 +81,13 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/3961c59b-c963-4
 [Video test 03 - alarma test](https://drive.google.com/file/d/1_DV6GsYPspmdC_JznaScxC3y3YMohNlG/view?usp=sharing)
 
 
+## COMPILE
 
-
+- cd RP2040-src
+- mkdir build
+- cd build
+- cmake ..
+- make
 
 
 
