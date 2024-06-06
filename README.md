@@ -67,17 +67,18 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4
 ![Diagrama](RP2040-tp/imag/node-iot2.png)
 
 - [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/LoRaNode.cpp)
-##  Videos test
+- 
+##  Nuevos Videos test 
 
 https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/3961c59b-c963-4d9e-8f32-2455c8c50b1d
 
 ### videos test completos 
 
-[Video test 01](https://drive.google.com/file/d/1rHMMpx3x_yMQkRKzT6UrWL4k067lQiNH/view?usp=sharing)
+[Video test 01- envio y recive paquetes Lora](https://drive.google.com/file/d/1ub5lkfFMzj2NYurORYJZJMrPG7XbilwR/view?usp=sharing)
 
-[Video test 02](https://drive.google.com/file/d/11-dUszEyqa0X4JsdMCZxf48O2FxfJG-V/view?usp=sharing)
+[Video test 02](https://drive.google.com/file/d/1-5yqoETG61ZjHBQlNYUkIsUJ_yjg-Ff6/view?usp=sharing)
 
-[Video test 03](https://drive.google.com/file/d/1p8vt-p0-U_TI55cvUd6wXAmCZnmZy9zN/view?usp=sharing)
+[Video test 03 - alarma test](https://drive.google.com/file/d/1_DV6GsYPspmdC_JznaScxC3y3YMohNlG/view?usp=sharing)
 
 
 
