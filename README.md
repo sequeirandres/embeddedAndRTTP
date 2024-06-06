@@ -61,6 +61,10 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4
 
 ![Diagrama](RP2040-tp/imag/gateway-iot2.png)
 
+### Modulo receptor 
+
+![Diagrama](RP2040-tp/imag/node-iot4.png)
+
 - [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/RP2040-src/aplications/LoRaNode/LoRaNode.cpp)
 ## Nodo endpoint (Transmisor LoRa)
 
