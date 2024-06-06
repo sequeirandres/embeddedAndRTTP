@@ -61,18 +61,18 @@ https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/f6114e1f-b008-4
 
 ![Diagrama](RP2040-tp/imag/gateway-iot2.png)
 
-- [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/LoRaGateway.cpp)
+- [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/RP2040-src/aplications/LoRaNode/LoRaNode.cpp)
 ## Nodo endpoint (Transmisor LoRa)
 
 ![Diagrama](RP2040-tp/imag/node-iot2.png)
 
-- [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/LoRaNode.cpp)
-- 
-##  Nuevos Videos test 
+- [src](https://github.com/sequeirandres/embeddedAndRTTP/blob/main/RP2040-src/aplications/LoRaNode/LoRaNode.cpp)
+
+## Videos test 
 
 https://github.com/sequeirandres/embeddedAndRTTP/assets/72326236/3961c59b-c963-4d9e-8f32-2455c8c50b1d
 
-### videos test completos 
+## Nuevos videos test completos 
 
 [Video test 01- envio y recive paquetes Lora](https://drive.google.com/file/d/1ub5lkfFMzj2NYurORYJZJMrPG7XbilwR/view?usp=sharing)
 
